@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+invoke = "1.5.0"
+python-dotenv = "*"
+
+[dev-packages]
+pre-commit = "==2.12.1"
+black = "==21.5b0"
+coverage = "==5.6b1"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true

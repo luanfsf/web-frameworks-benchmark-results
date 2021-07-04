@@ -1,0 +1,10 @@
+[run]
+omit =
+    */tests/*
+    venv/*
+    tasks/*
+
+[report]
+exclude_lines =
+    def __str__
+    def __repr__
